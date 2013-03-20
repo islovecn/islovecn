@@ -17,6 +17,7 @@
 		FE6D5C5616F9AF680001A05A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6D5C5516F9AF680001A05A /* Default@2x.png */; };
 		FE6D5C5816F9AF680001A05A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6D5C5716F9AF680001A05A /* Default-568h@2x.png */; };
 		FE6D5C6916F9B0DE0001A05A /* AppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D5C6816F9B0DE0001A05A /* AppHelper.m */; };
+		FE6D5C6C16F9B2CE0001A05A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D5C6B16F9B2CE0001A05A /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		FE6D5C5E16F9B0A10001A05A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		FE6D5C6716F9B0DE0001A05A /* AppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppHelper.h; sourceTree = "<group>"; };
 		FE6D5C6816F9B0DE0001A05A /* AppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppHelper.m; sourceTree = "<group>"; };
+		FE6D5C6A16F9B2CE0001A05A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		FE6D5C6B16F9B2CE0001A05A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 		FE6D5C6616F9B0C00001A05A /* viewcontroller */ = {
 			isa = PBXGroup;
 			children = (
+				FE6D5C6A16F9B2CE0001A05A /* HomeViewController.h */,
+				FE6D5C6B16F9B2CE0001A05A /* HomeViewController.m */,
 			);
 			name = viewcontroller;
 			path = mobile/viewcontroller;
@@ -227,6 +232,7 @@
 				FE6D5C4E16F9AF670001A05A /* main.m in Sources */,
 				FE6D5C5216F9AF670001A05A /* AppDelegate.m in Sources */,
 				FE6D5C6916F9B0DE0001A05A /* AppHelper.m in Sources */,
+				FE6D5C6C16F9B2CE0001A05A /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
