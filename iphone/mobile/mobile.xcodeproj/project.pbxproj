@@ -16,6 +16,7 @@
 		FE6D5C5416F9AF680001A05A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6D5C5316F9AF680001A05A /* Default.png */; };
 		FE6D5C5616F9AF680001A05A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6D5C5516F9AF680001A05A /* Default@2x.png */; };
 		FE6D5C5816F9AF680001A05A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6D5C5716F9AF680001A05A /* Default-568h@2x.png */; };
+		FE6D5C6916F9B0DE0001A05A /* AppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D5C6816F9B0DE0001A05A /* AppHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,9 @@
 		FE6D5C5316F9AF680001A05A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FE6D5C5516F9AF680001A05A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		FE6D5C5716F9AF680001A05A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FE6D5C5E16F9B0A10001A05A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		FE6D5C6716F9B0DE0001A05A /* AppHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppHelper.h; sourceTree = "<group>"; };
+		FE6D5C6816F9B0DE0001A05A /* AppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,14 @@
 		FE6D5C3516F9AF670001A05A = {
 			isa = PBXGroup;
 			children = (
-				FE6D5C4716F9AF670001A05A /* mobile */,
 				FE6D5C4016F9AF670001A05A /* Frameworks */,
+				FE6D5C6116F9B0C00001A05A /* helper */,
+				FE6D5C4716F9AF670001A05A /* mobile */,
+				FE6D5C6216F9B0C00001A05A /* model */,
 				FE6D5C3F16F9AF670001A05A /* Products */,
+				FE6D5C6316F9B0C00001A05A /* resource */,
+				FE6D5C6516F9B0C00001A05A /* view */,
+				FE6D5C6616F9B0C00001A05A /* viewcontroller */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +89,7 @@
 			children = (
 				FE6D5C5016F9AF670001A05A /* AppDelegate.h */,
 				FE6D5C5116F9AF670001A05A /* AppDelegate.m */,
+				FE6D5C5E16F9B0A10001A05A /* Constants.h */,
 				FE6D5C4816F9AF670001A05A /* Supporting Files */,
 			);
 			path = mobile;
@@ -97,6 +107,56 @@
 				FE6D5C5716F9AF680001A05A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE6D5C6116F9B0C00001A05A /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D5C6716F9B0DE0001A05A /* AppHelper.h */,
+				FE6D5C6816F9B0DE0001A05A /* AppHelper.m */,
+			);
+			name = helper;
+			path = mobile/helper;
+			sourceTree = "<group>";
+		};
+		FE6D5C6216F9B0C00001A05A /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			path = mobile/model;
+			sourceTree = "<group>";
+		};
+		FE6D5C6316F9B0C00001A05A /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				FE6D5C6416F9B0C00001A05A /* image */,
+			);
+			name = resource;
+			path = mobile/resource;
+			sourceTree = "<group>";
+		};
+		FE6D5C6416F9B0C00001A05A /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		FE6D5C6516F9B0C00001A05A /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			path = mobile/view;
+			sourceTree = "<group>";
+		};
+		FE6D5C6616F9B0C00001A05A /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = viewcontroller;
+			path = mobile/viewcontroller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +226,7 @@
 			files = (
 				FE6D5C4E16F9AF670001A05A /* main.m in Sources */,
 				FE6D5C5216F9AF670001A05A /* AppDelegate.m in Sources */,
+				FE6D5C6916F9B0DE0001A05A /* AppHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
