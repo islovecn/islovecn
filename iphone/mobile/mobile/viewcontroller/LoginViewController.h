@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  LoginViewController.h
 //  mobile
 //
 //  Created by Rain on 13-3-20.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController
-{
+@interface LoginViewController : UIViewController
 
-}
 @end

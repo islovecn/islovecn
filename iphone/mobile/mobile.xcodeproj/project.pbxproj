@@ -18,6 +18,8 @@
 		FE6D5C5816F9AF680001A05A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE6D5C5716F9AF680001A05A /* Default-568h@2x.png */; };
 		FE6D5C6916F9B0DE0001A05A /* AppHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D5C6816F9B0DE0001A05A /* AppHelper.m */; };
 		FE6D5C6C16F9B2CE0001A05A /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D5C6B16F9B2CE0001A05A /* HomeViewController.m */; };
+		FE6D5C6F16F9C52E0001A05A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D5C6E16F9C52E0001A05A /* LoginViewController.m */; };
+		FE6D5C7216F9C5520001A05A /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6D5C7116F9C5510001A05A /* RegistViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,10 @@
 		FE6D5C6816F9B0DE0001A05A /* AppHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppHelper.m; sourceTree = "<group>"; };
 		FE6D5C6A16F9B2CE0001A05A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		FE6D5C6B16F9B2CE0001A05A /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		FE6D5C6D16F9C52E0001A05A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		FE6D5C6E16F9C52E0001A05A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		FE6D5C7016F9C5510001A05A /* RegistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		FE6D5C7116F9C5510001A05A /* RegistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,10 @@
 			children = (
 				FE6D5C6A16F9B2CE0001A05A /* HomeViewController.h */,
 				FE6D5C6B16F9B2CE0001A05A /* HomeViewController.m */,
+				FE6D5C6D16F9C52E0001A05A /* LoginViewController.h */,
+				FE6D5C6E16F9C52E0001A05A /* LoginViewController.m */,
+				FE6D5C7016F9C5510001A05A /* RegistViewController.h */,
+				FE6D5C7116F9C5510001A05A /* RegistViewController.m */,
 			);
 			name = viewcontroller;
 			path = mobile/viewcontroller;
@@ -233,6 +243,8 @@
 				FE6D5C5216F9AF670001A05A /* AppDelegate.m in Sources */,
 				FE6D5C6916F9B0DE0001A05A /* AppHelper.m in Sources */,
 				FE6D5C6C16F9B2CE0001A05A /* HomeViewController.m in Sources */,
+				FE6D5C6F16F9C52E0001A05A /* LoginViewController.m in Sources */,
+				FE6D5C7216F9C5520001A05A /* RegistViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

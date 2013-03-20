@@ -37,4 +37,14 @@
     [[NSUserDefaults standardUserDefaults] setInteger: val forKey:key];
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
+
++(void)showAlertMessage:(NSString*)msg title:(NSString*)title{
+    UIAlertView* alertView = [[UIAlertView alloc]initWithTitle:title
+                                                       message:msg
+                                                      delegate:nil
+                                             cancelButtonTitle:@"确定"
+                                             otherButtonTitles:nil];
+    [alertView show];
+    [alertView release];
+}
 @end

@@ -17,4 +17,6 @@
 
 + (int)getIntConfig:(NSString*)key;
 + (void)setIntConfig:(NSString*)key val:(int)val;
+
++(void)showAlertMessage:(NSString*)msg title:(NSString*)title;
 @end

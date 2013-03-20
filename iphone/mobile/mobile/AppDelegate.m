@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
+    [self openHomeView];
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
@@ -52,4 +52,13 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - Custom Functions
+-(void)openHomeView
+{
+    HomeViewController *controller=[[HomeViewController alloc] init];
+    UINavigationController *newNavController;
+    newNavController= [[UINavigationController alloc] initWithRootViewController:controller];
+    [controller release];
+    [self.window addSubview:newNavController.view];
+}
 @end
