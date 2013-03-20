@@ -24,20 +24,20 @@
 	UIButton* btnLogin=[UIButton buttonWithType:UIButtonTypeCustom];
     [btnLogin setImage:[UIImage imageNamed:@"quickreg_but"] forState:UIControlStateNormal];
     [btnLogin setImage:[UIImage imageNamed:@"quickreg_but_hover"] forState:UIControlStateNormal];
-    btnLogin.frame=CGRectMake(20, 170, 143, 37);
+    btnLogin.frame=CGRectMake(15, 170, 143, 37);
     [btnLogin addTarget:self action:@selector(clickLogin) forControlEvents:UIControlEventTouchUpInside];
     
     UIButton* btnPay=[UIButton buttonWithType:UIButtonTypeCustom];
     [btnPay setImage:[UIImage imageNamed:@"onlinepay_but"] forState:UIControlStateNormal];
     [btnPay setImage:[UIImage imageNamed:@"onlinepay_but_hover"] forState:UIControlStateNormal];
-    btnPay.frame=CGRectMake(160, 170, 143, 37);
+    btnPay.frame=CGRectMake(165, 170, 143, 37);
     [btnPay addTarget:self action:@selector(clickPay) forControlEvents:UIControlEventTouchUpInside];
     
     UIImageView *imgLogo=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo"]];
-    imgLogo.frame=CGRectMake((kDeviceWidth-146)/2, 210, 146, 43);
+    imgLogo.frame=CGRectMake((kDeviceWidth-146)/2, 215, 146, 43);
     
     UIImageView *imgBar=[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"midimg.jpg"]];
-    imgBar.frame=CGRectMake((kDeviceWidth-313)/2, 255, 313, 109);
+    imgBar.frame=CGRectMake((kDeviceWidth-313)/2, 260, 313, 109);
     
     [self.view addSubview:imgHeader];
     [self.view addSubview:btnLogin];
