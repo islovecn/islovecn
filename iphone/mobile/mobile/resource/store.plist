@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>01</string>
+		<key>name</key>
+		<string>北京双井店</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>02</string>
+		<key>name</key>
+		<string>北京国瑞店</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>03</string>
+		<key>name</key>
+		<string>北京悠唐店</string>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>04</string>
+		<key>name</key>
+		<string>北京西单店</string>
+	</dict>
+</array>
+</plist>

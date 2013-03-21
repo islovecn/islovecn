@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface HomeViewController : UIViewController
+#import "HomeCell.h"
+@interface HomeViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {
-
+    UIScrollView *scrollview;
+    UIScrollView* scrollShop;
+    NSArray *arrStore;
+    int curStoreIndex ;
 }
 @end
