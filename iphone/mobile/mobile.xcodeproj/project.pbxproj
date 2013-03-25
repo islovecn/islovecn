@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FE23FCF717002AC1002AFEB4 /* address_header_txt.png in Resources */ = {isa = PBXBuildFile; fileRef = FE23FCED17002AC1002AFEB4 /* address_header_txt.png */; };
-		FE23FCF817002AC1002AFEB4 /* address_header_txt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE23FCEE17002AC1002AFEB4 /* address_header_txt@2x.png */; };
 		FE23FCFB17002AC1002AFEB4 /* time_header_txt.png in Resources */ = {isa = PBXBuildFile; fileRef = FE23FCF117002AC1002AFEB4 /* time_header_txt.png */; };
 		FE23FCFC17002AC1002AFEB4 /* time_header_txt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE23FCF217002AC1002AFEB4 /* time_header_txt@2x.png */; };
 		FE23FCFD17002AC1002AFEB4 /* transport_header_txt.png in Resources */ = {isa = PBXBuildFile; fileRef = FE23FCF317002AC1002AFEB4 /* transport_header_txt.png */; };
@@ -28,6 +26,16 @@
 		FE23FD1917003EB1002AFEB4 /* traffic_sj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE23FD1117003EB1002AFEB4 /* traffic_sj.jpg */; };
 		FE23FD1A17003EB1002AFEB4 /* traffic_xd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE23FD1217003EB1002AFEB4 /* traffic_xd.jpg */; };
 		FE23FD1B17003EB1002AFEB4 /* traffic_yt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE23FD1317003EB1002AFEB4 /* traffic_yt.jpg */; };
+		FE23FD1E1700416B002AFEB4 /* TrafficViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE23FD1D1700416B002AFEB4 /* TrafficViewController.m */; };
+		FE23FD2317004D66002AFEB4 /* map2_gr.png in Resources */ = {isa = PBXBuildFile; fileRef = FE23FD1F17004D66002AFEB4 /* map2_gr.png */; };
+		FE23FD2417004D66002AFEB4 /* map2_sj.png in Resources */ = {isa = PBXBuildFile; fileRef = FE23FD2017004D66002AFEB4 /* map2_sj.png */; };
+		FE23FD2517004D66002AFEB4 /* map2_xd.png in Resources */ = {isa = PBXBuildFile; fileRef = FE23FD2117004D66002AFEB4 /* map2_xd.png */; };
+		FE23FD2617004D66002AFEB4 /* map2_yt.png in Resources */ = {isa = PBXBuildFile; fileRef = FE23FD2217004D66002AFEB4 /* map2_yt.png */; };
+		FE23FD29170052D7002AFEB4 /* address_header_txt.png in Resources */ = {isa = PBXBuildFile; fileRef = FE23FD27170052D7002AFEB4 /* address_header_txt.png */; };
+		FE23FD2A170052D7002AFEB4 /* address_header_txt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE23FD28170052D7002AFEB4 /* address_header_txt@2x.png */; };
+		FE23FD2D1700530C002AFEB4 /* ReasonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE23FD2C1700530C002AFEB4 /* ReasonViewController.m */; };
+		FE23FD301700543C002AFEB4 /* ReasonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE23FD2F1700543C002AFEB4 /* ReasonCell.m */; };
+		FE23FD3217005809002AFEB4 /* reason.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE23FD3117005809002AFEB4 /* reason.plist */; };
 		FE5495EE16FABDE3003C80F3 /* store.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE5495ED16FABDE3003C80F3 /* store.plist */; };
 		FE5495F116FAD13E003C80F3 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5495F016FAD13E003C80F3 /* HomeCell.m */; };
 		FE5495F416FAD74B003C80F3 /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5495F316FAD74B003C80F3 /* TimeViewController.m */; };
@@ -119,8 +127,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE23FCED17002AC1002AFEB4 /* address_header_txt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "\baddress_header_txt.png"; sourceTree = "<group>"; };
-		FE23FCEE17002AC1002AFEB4 /* address_header_txt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "\baddress_header_txt@2x.png"; sourceTree = "<group>"; };
 		FE23FCF117002AC1002AFEB4 /* time_header_txt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time_header_txt.png; sourceTree = "<group>"; };
 		FE23FCF217002AC1002AFEB4 /* time_header_txt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "time_header_txt@2x.png"; sourceTree = "<group>"; };
 		FE23FCF317002AC1002AFEB4 /* transport_header_txt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transport_header_txt.png; sourceTree = "<group>"; };
@@ -141,6 +147,19 @@
 		FE23FD1117003EB1002AFEB4 /* traffic_sj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = traffic_sj.jpg; sourceTree = "<group>"; };
 		FE23FD1217003EB1002AFEB4 /* traffic_xd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = traffic_xd.jpg; sourceTree = "<group>"; };
 		FE23FD1317003EB1002AFEB4 /* traffic_yt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = traffic_yt.jpg; sourceTree = "<group>"; };
+		FE23FD1C1700416B002AFEB4 /* TrafficViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficViewController.h; sourceTree = "<group>"; };
+		FE23FD1D1700416B002AFEB4 /* TrafficViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficViewController.m; sourceTree = "<group>"; };
+		FE23FD1F17004D66002AFEB4 /* map2_gr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map2_gr.png; sourceTree = "<group>"; };
+		FE23FD2017004D66002AFEB4 /* map2_sj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map2_sj.png; sourceTree = "<group>"; };
+		FE23FD2117004D66002AFEB4 /* map2_xd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map2_xd.png; sourceTree = "<group>"; };
+		FE23FD2217004D66002AFEB4 /* map2_yt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map2_yt.png; sourceTree = "<group>"; };
+		FE23FD27170052D7002AFEB4 /* address_header_txt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = address_header_txt.png; sourceTree = "<group>"; };
+		FE23FD28170052D7002AFEB4 /* address_header_txt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "address_header_txt@2x.png"; sourceTree = "<group>"; };
+		FE23FD2B1700530B002AFEB4 /* ReasonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReasonViewController.h; sourceTree = "<group>"; };
+		FE23FD2C1700530C002AFEB4 /* ReasonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReasonViewController.m; sourceTree = "<group>"; };
+		FE23FD2E1700543C002AFEB4 /* ReasonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReasonCell.h; sourceTree = "<group>"; };
+		FE23FD2F1700543C002AFEB4 /* ReasonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReasonCell.m; sourceTree = "<group>"; };
+		FE23FD3117005809002AFEB4 /* reason.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = reason.plist; sourceTree = "<group>"; };
 		FE5495ED16FABDE3003C80F3 /* store.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = store.plist; sourceTree = "<group>"; };
 		FE5495EF16FAD13E003C80F3 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
 		FE5495F016FAD13E003C80F3 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
@@ -336,6 +355,7 @@
 			children = (
 				FE6D5C6416F9B0C00001A05A /* image */,
 				FE5495ED16FABDE3003C80F3 /* store.plist */,
+				FE23FD3117005809002AFEB4 /* reason.plist */,
 			);
 			name = resource;
 			path = mobile/resource;
@@ -344,6 +364,12 @@
 		FE6D5C6416F9B0C00001A05A /* image */ = {
 			isa = PBXGroup;
 			children = (
+				FE23FD27170052D7002AFEB4 /* address_header_txt.png */,
+				FE23FD28170052D7002AFEB4 /* address_header_txt@2x.png */,
+				FE23FD1F17004D66002AFEB4 /* map2_gr.png */,
+				FE23FD2017004D66002AFEB4 /* map2_sj.png */,
+				FE23FD2117004D66002AFEB4 /* map2_xd.png */,
+				FE23FD2217004D66002AFEB4 /* map2_yt.png */,
 				FE23FD0C17003EB0002AFEB4 /* map_gr.jpg */,
 				FE23FD0D17003EB0002AFEB4 /* map_sj.jpg */,
 				FE23FD0E17003EB0002AFEB4 /* map_xd.jpg */,
@@ -356,8 +382,6 @@
 				FE23FD0617003056002AFEB4 /* details_img@2x.jpg */,
 				FE23FD0117002B62002AFEB4 /* time_header_bg.png */,
 				FE23FD0217002B62002AFEB4 /* time_header_bg@2x.png */,
-				FE23FCED17002AC1002AFEB4 /* address_header_txt.png */,
-				FE23FCEE17002AC1002AFEB4 /* address_header_txt@2x.png */,
 				FE23FCF117002AC1002AFEB4 /* time_header_txt.png */,
 				FE23FCF217002AC1002AFEB4 /* time_header_txt@2x.png */,
 				FE23FCF317002AC1002AFEB4 /* transport_header_txt.png */,
@@ -445,6 +469,8 @@
 			children = (
 				FE5495EF16FAD13E003C80F3 /* HomeCell.h */,
 				FE5495F016FAD13E003C80F3 /* HomeCell.m */,
+				FE23FD2E1700543C002AFEB4 /* ReasonCell.h */,
+				FE23FD2F1700543C002AFEB4 /* ReasonCell.m */,
 			);
 			name = view;
 			path = mobile/view;
@@ -463,6 +489,10 @@
 				FE5495F316FAD74B003C80F3 /* TimeViewController.m */,
 				FE23FD0917003A7A002AFEB4 /* AddressViewController.h */,
 				FE23FD0A17003A7B002AFEB4 /* AddressViewController.m */,
+				FE23FD1C1700416B002AFEB4 /* TrafficViewController.h */,
+				FE23FD1D1700416B002AFEB4 /* TrafficViewController.m */,
+				FE23FD2B1700530B002AFEB4 /* ReasonViewController.h */,
+				FE23FD2C1700530C002AFEB4 /* ReasonViewController.m */,
 			);
 			name = viewcontroller;
 			path = mobile/viewcontroller;
@@ -596,8 +626,6 @@
 				FEA290DC16FFFE92002B2689 /* top_reg_but_hover@2x.png in Resources */,
 				FEA290DD16FFFE92002B2689 /* top_reg_but.png in Resources */,
 				FEA290DE16FFFE92002B2689 /* top_reg_but@2x.png in Resources */,
-				FE23FCF717002AC1002AFEB4 /* address_header_txt.png in Resources */,
-				FE23FCF817002AC1002AFEB4 /* address_header_txt@2x.png in Resources */,
 				FE23FCFB17002AC1002AFEB4 /* time_header_txt.png in Resources */,
 				FE23FCFC17002AC1002AFEB4 /* time_header_txt@2x.png in Resources */,
 				FE23FCFD17002AC1002AFEB4 /* transport_header_txt.png in Resources */,
@@ -616,6 +644,13 @@
 				FE23FD1917003EB1002AFEB4 /* traffic_sj.jpg in Resources */,
 				FE23FD1A17003EB1002AFEB4 /* traffic_xd.jpg in Resources */,
 				FE23FD1B17003EB1002AFEB4 /* traffic_yt.jpg in Resources */,
+				FE23FD2317004D66002AFEB4 /* map2_gr.png in Resources */,
+				FE23FD2417004D66002AFEB4 /* map2_sj.png in Resources */,
+				FE23FD2517004D66002AFEB4 /* map2_xd.png in Resources */,
+				FE23FD2617004D66002AFEB4 /* map2_yt.png in Resources */,
+				FE23FD29170052D7002AFEB4 /* address_header_txt.png in Resources */,
+				FE23FD2A170052D7002AFEB4 /* address_header_txt@2x.png in Resources */,
+				FE23FD3217005809002AFEB4 /* reason.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,6 +670,9 @@
 				FE5495F116FAD13E003C80F3 /* HomeCell.m in Sources */,
 				FE5495F416FAD74B003C80F3 /* TimeViewController.m in Sources */,
 				FE23FD0B17003A7B002AFEB4 /* AddressViewController.m in Sources */,
+				FE23FD1E1700416B002AFEB4 /* TrafficViewController.m in Sources */,
+				FE23FD2D1700530C002AFEB4 /* ReasonViewController.m in Sources */,
+				FE23FD301700543C002AFEB4 /* ReasonCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

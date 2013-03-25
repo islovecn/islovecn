@@ -13,8 +13,10 @@
 		<string>22:00</string>
 		<key>map</key>
 		<string>map_sj.jpg</string>
+		<key>map2</key>
+		<string>map2_sj.png</string>
 		<key>traffic</key>
-		<string>traffic_sj.jpg</string>
+		<string>乘坐23、28、37、57、300、348、457、637、683、666、707、715、801、974、976公交车双井桥或乘坐地铁10号线双井站下车（A西北口出）</string>
 	</dict>
 	<dict>
 		<key>id</key>
@@ -27,8 +29,10 @@
 		<string>22:00</string>
 		<key>map</key>
 		<string>map_gr.jpg</string>
+		<key>map2</key>
+		<string>map2_gr.png</string>
 		<key>traffic</key>
-		<string>traffic_gr.jpg</string>
+		<string>乘坐8、9、41、44内环、59、60、103电车、104电车、110、673、723、729、692、特2路公交车崇文门西站下车或乘坐地铁2号线或5号线崇文门站下车（C2口出）</string>
 	</dict>
 	<dict>
 		<key>id</key>
@@ -41,8 +45,10 @@
 		<string>22:00</string>
 		<key>map</key>
 		<string>map_yt.jpg</string>
+		<key>map2</key>
+		<string>map2_yt.png</string>
 		<key>traffic</key>
-		<string>traffic_yt.jpg</string>
+		<string>乘坐101、109、110、112、420、750、619、75、750快公交车朝阳门外战下车或乘坐地铁2号线朝阳门站下车（A东北口出）</string>
 	</dict>
 	<dict>
 		<key>id</key>
@@ -55,8 +61,10 @@
 		<string>22:00</string>
 		<key>map</key>
 		<string>map_xd.jpg</string>
+		<key>map2</key>
+		<string>map2_xd.png</string>
 		<key>traffic</key>
-		<string>traffic_xd.jpg</string>
+		<string>乘坐22、46、102电车、105电车、109电车、603、604、88、690、608、626、83路公交车西单商场站下车，或乘坐地铁1号线或4号线西单站下车（F1西北口出）</string>
 	</dict>
 </array>
 </plist>

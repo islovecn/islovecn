@@ -12,6 +12,8 @@
 #import "RegistViewController.h"
 #import "TimeViewController.h"
 #import "AddressViewController.h"
+#import "TrafficViewController.h"
+#import "ReasonViewController.h"
 
 @interface HomeViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {

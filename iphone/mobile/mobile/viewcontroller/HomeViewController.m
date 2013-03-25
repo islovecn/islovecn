@@ -226,7 +226,25 @@
             [controller release];
         }
             break;
-        default:
+        case 2:
+        {
+            
+            TrafficViewController* controller=[[TrafficViewController alloc] init];
+            controller.storeName= [dict objectForKey:@"name"];
+            controller.storeMap= [dict objectForKey:@"map2"];
+            controller.storeTraffic= [dict objectForKey:@"traffic"];
+            [[self navigationController] pushViewController:controller animated:YES];
+            [controller loadData];
+            [controller release];
+        }
+            break;
+        case 3:
+        {
+            
+            ReasonViewController* controller=[[ReasonViewController alloc] init];
+            [[self navigationController] pushViewController:controller animated:YES];
+            [controller release];
+        }
             break;
     }
     

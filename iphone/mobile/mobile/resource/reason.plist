@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>red</key>
+		<string>WHO WE ARE?</string>
+		<key>black</key>
+		<string>我们是量版式钻石商场 不是品牌店</string>
+		<key>gray</key>
+		<string>拥有 40 家国际一线供应商，商品设计全球时尚同步</string>
+	</dict>
+	<dict>
+		<key>red</key>
+		<string>ON SALE?</string>
+		<key>black</key>
+		<string>买钻石 我们比百货商场更省钱</string>
+		<key>gray</key>
+		<string>没有中间商，价格是百货商场一半左右。</string>
+	</dict>
+	<dict>
+		<key>red</key>
+		<string>MONEY BACK?</string>
+		<key>black</key>
+		<string>我们的钻石原价回购0利息分期付款</string>
+		<key>gray</key>
+		<string>签署回购协议，还可以0利息0首付分期付款买钻石</string>
+	</dict>
+	<dict>
+		<key>red</key>
+		<string>WHY YOU NEED?</string>
+		<key>black</key>
+		<string>为什么一定要买裸钻</string>
+		<key>gray</key>
+		<string>裸钻品质更有保障，价格更实惠，可DIY性更强</string>
+	</dict>
+</array>
+</plist>
