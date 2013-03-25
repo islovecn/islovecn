@@ -146,7 +146,9 @@
 }
 
 -(void)clickFit{
-
+    ListViewController* controller=[[ListViewController alloc] init];
+    [[self navigationController] pushViewController:controller animated:YES];
+    [controller release];
 }
 
 -(void)clickLogin{

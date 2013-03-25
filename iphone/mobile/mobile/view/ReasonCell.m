@@ -14,7 +14,7 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        lblRed=[[UILabel alloc] initWithFrame:CGRectMake(10, 12, kDeviceWidth-20, 40)];
+        lblRed=[[UILabel alloc] initWithFrame:CGRectMake(10, 10, kDeviceWidth-20, 40)];
         lblRed.font=[UIFont boldSystemFontOfSize:24.0];
         lblRed.textColor=[UIColor colorWithRed:230/255.0 green:62/255.0 blue:105/255.0 alpha:1.0];
         

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>RA.jpg</string>
+		<key>name</key>
+		<string>逸彩-红18K金钻石戒指</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>RB.jpg</string>
+		<key>name</key>
+		<string>娇韵-白18K金钻石女戒</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>RC.jpg</string>
+		<key>name</key>
+		<string>唯美恋歌-红18K金钻石戒指</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>RD.jpg</string>
+		<key>name</key>
+		<string>围爱-白18K金钻石戒指</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>RE.jpg</string>
+		<key>name</key>
+		<string>花漾-白18K金钻石女戒</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>RF.jpg</string>
+		<key>name</key>
+		<string>相守一生-白18K金钻石女戒</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>RG.jpg</string>
+		<key>name</key>
+		<string>睿翔-白18K金钻石男戒</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>RH.jpg</string>
+		<key>name</key>
+		<string>守诺甄言-白18K金钻石戒指</string>
+	</dict>
+</array>
+</plist>
