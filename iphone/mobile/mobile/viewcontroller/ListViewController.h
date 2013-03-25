@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ListCell.h"
-
+#import "DetailViewController.h"
 @interface ListViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {
     NSArray* arrDiamond;

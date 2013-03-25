@@ -95,5 +95,13 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     int row=indexPath.row;
+    if (row==0) {
+        return;
+    }
+    NSDictionary* dict=(NSDictionary*)[arrDiamond objectAtIndex:row-1];
+    DetailViewController* controller=[[DetailViewController alloc] init];
+    controller.dictInfo= dict;
+    [[self navigationController] pushViewController:controller animated:YES];
+    [controller release];
 }
 @end

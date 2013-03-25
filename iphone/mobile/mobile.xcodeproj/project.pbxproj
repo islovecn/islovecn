@@ -59,6 +59,7 @@
 		FE23FD6017006C0F002AFEB4 /* RF.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE23FD5817006C0F002AFEB4 /* RF.jpg */; };
 		FE23FD6117006C0F002AFEB4 /* RG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE23FD5917006C0F002AFEB4 /* RG.jpg */; };
 		FE23FD6217006C0F002AFEB4 /* RH.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE23FD5A17006C0F002AFEB4 /* RH.jpg */; };
+		FE23FD65170070FD002AFEB4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE23FD64170070FD002AFEB4 /* DetailViewController.m */; };
 		FE5495EE16FABDE3003C80F3 /* store.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE5495ED16FABDE3003C80F3 /* store.plist */; };
 		FE5495F116FAD13E003C80F3 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5495F016FAD13E003C80F3 /* HomeCell.m */; };
 		FE5495F416FAD74B003C80F3 /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5495F316FAD74B003C80F3 /* TimeViewController.m */; };
@@ -208,6 +209,8 @@
 		FE23FD5817006C0F002AFEB4 /* RF.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RF.jpg; sourceTree = "<group>"; };
 		FE23FD5917006C0F002AFEB4 /* RG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RG.jpg; sourceTree = "<group>"; };
 		FE23FD5A17006C0F002AFEB4 /* RH.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RH.jpg; sourceTree = "<group>"; };
+		FE23FD63170070FD002AFEB4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FE23FD64170070FD002AFEB4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		FE5495ED16FABDE3003C80F3 /* store.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = store.plist; sourceTree = "<group>"; };
 		FE5495EF16FAD13E003C80F3 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
 		FE5495F016FAD13E003C80F3 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
@@ -566,6 +569,8 @@
 				FE23FD2C1700530C002AFEB4 /* ReasonViewController.m */,
 				FE23FD3317005DFE002AFEB4 /* ListViewController.h */,
 				FE23FD3417005DFF002AFEB4 /* ListViewController.m */,
+				FE23FD63170070FD002AFEB4 /* DetailViewController.h */,
+				FE23FD64170070FD002AFEB4 /* DetailViewController.m */,
 			);
 			name = viewcontroller;
 			path = mobile/viewcontroller;
@@ -769,6 +774,7 @@
 				FE23FD301700543C002AFEB4 /* ReasonCell.m in Sources */,
 				FE23FD3517005DFF002AFEB4 /* ListViewController.m in Sources */,
 				FE23FD5217006485002AFEB4 /* ListCell.m in Sources */,
+				FE23FD65170070FD002AFEB4 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
