@@ -7,24 +7,56 @@
 		<string>01</string>
 		<key>name</key>
 		<string>北京双井店</string>
+		<key>open</key>
+		<string>10:00</string>
+		<key>close</key>
+		<string>22:00</string>
+		<key>map</key>
+		<string>map_sj.jpg</string>
+		<key>traffic</key>
+		<string>traffic_sj.jpg</string>
 	</dict>
 	<dict>
 		<key>id</key>
 		<string>02</string>
 		<key>name</key>
 		<string>北京国瑞店</string>
+		<key>open</key>
+		<string>10:00</string>
+		<key>close</key>
+		<string>22:00</string>
+		<key>map</key>
+		<string>map_gr.jpg</string>
+		<key>traffic</key>
+		<string>traffic_gr.jpg</string>
 	</dict>
 	<dict>
 		<key>id</key>
 		<string>03</string>
 		<key>name</key>
 		<string>北京悠唐店</string>
+		<key>open</key>
+		<string>10:00</string>
+		<key>close</key>
+		<string>22:00</string>
+		<key>map</key>
+		<string>map_yt.jpg</string>
+		<key>traffic</key>
+		<string>traffic_yt.jpg</string>
 	</dict>
 	<dict>
 		<key>id</key>
 		<string>04</string>
 		<key>name</key>
 		<string>北京西单店</string>
+		<key>open</key>
+		<string>10:00</string>
+		<key>close</key>
+		<string>22:00</string>
+		<key>map</key>
+		<string>map_xd.jpg</string>
+		<key>traffic</key>
+		<string>traffic_xd.jpg</string>
 	</dict>
 </array>
 </plist>

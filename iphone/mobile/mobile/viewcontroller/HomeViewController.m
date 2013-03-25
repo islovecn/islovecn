@@ -201,11 +201,31 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     int row=indexPath.row;
+    NSDictionary* dict= (NSDictionary*)[arrStore objectAtIndex:curStoreIndex];
     switch (row) {
         case 0:
+        {
             
+            TimeViewController* controller=[[TimeViewController alloc] init];
+            controller.storeName= [dict objectForKey:@"name"];
+            controller.storeOpen= [dict objectForKey:@"open"];
+            controller.storeClose= [dict objectForKey:@"close"];
+            [[self navigationController] pushViewController:controller animated:YES];
+            [controller loadData];
+            [controller release];
+        }
             break;
+        case 1:
+        {
             
+            AddressViewController* controller=[[AddressViewController alloc] init];
+            controller.storeName= [dict objectForKey:@"name"];
+            controller.storeMap= [dict objectForKey:@"map"];
+            [[self navigationController] pushViewController:controller animated:YES];
+            [controller loadData];
+            [controller release];
+        }
+            break;
         default:
             break;
     }

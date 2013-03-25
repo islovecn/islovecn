@@ -10,6 +10,8 @@
 #import "HomeCell.h"
 #import "LoginViewController.h"
 #import "RegistViewController.h"
+#import "TimeViewController.h"
+#import "AddressViewController.h"
 
 @interface HomeViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {

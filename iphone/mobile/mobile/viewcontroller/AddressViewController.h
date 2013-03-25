@@ -1,25 +1,23 @@
 //
-//  TimeViewController.h
+//  AddressViewController.h
 //  mobile
 //
-//  Created by Rain on 13-3-21.
+//  Created by Rain on 13-3-25.
 //  Copyright (c) 2013年 com.inlove. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface TimeViewController : UIViewController
+@interface AddressViewController : UIViewController
 {
     UIScrollView *scrollview;
     UITextView *tvdesc;
     UILabel* lblName;
-    UILabel* lblOpen;
-    UILabel* lblClose;
+    UIImageView *timebg;
 }
 @property (nonatomic,retain) NSString* storeName;
 @property (nonatomic,retain) NSString* storeNote;
-@property (nonatomic,retain) NSString* storeOpen;
-@property (nonatomic,retain) NSString* storeClose;
+@property (nonatomic,retain) NSString* storeMap; 
 
 -(void)loadData;
 @end
