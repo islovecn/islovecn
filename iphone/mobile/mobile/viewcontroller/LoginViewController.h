@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RegistViewController.h"
 
-@interface LoginViewController : UIViewController
-
+@interface LoginViewController : UIViewController<UITextFieldDelegate>
+{
+    UIImageView *imgName;
+    UIImageView *imgPwd;
+    BOOL showPassword;
+    UIButton *btnCK;
+    UITextField *txtPwd; 
+    UITextField *txtName;
+}
 @end

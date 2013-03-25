@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "HomeCell.h"
+#import "LoginViewController.h"
+#import "RegistViewController.h"
+
 @interface HomeViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 {
     UIScrollView *scrollview;

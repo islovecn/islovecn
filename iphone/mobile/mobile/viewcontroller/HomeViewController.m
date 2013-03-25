@@ -150,7 +150,9 @@
 }
 
 -(void)clickLogin{
-
+    RegistViewController* controller=[[RegistViewController alloc] init];
+    [[self navigationController] pushViewController:controller animated:YES];
+    [controller release];
 }
 
 
